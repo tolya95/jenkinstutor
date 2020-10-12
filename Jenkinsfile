@@ -23,5 +23,10 @@ pipeline {
                 echo 'End of Stage Build'
             }
         }
+        stage('4-Finish') {
+            steps {
+                echo 'Complete'
+            }
+        }
     }
 }
